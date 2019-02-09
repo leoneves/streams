@@ -54,6 +54,7 @@ class StreamList extends React.Component {
   }
 
   render() {
+    debugger
     return (
       <div>
         <h2>Streams</h2>

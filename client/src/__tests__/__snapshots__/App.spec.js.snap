@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App with App reders Corret Should match with snapshot 1`] = `
+<div
+  className="ui container"
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <div>
+      <Header />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/streams/new"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/streams/edit/:id"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/streams/delete/:id"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/streams/show"
+      />
+    </div>
+  </Router>
+</div>
+`;
