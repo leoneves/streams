@@ -3,7 +3,7 @@ import { fetchStreams } from '../../actions'
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 
-class StreamList extends React.Component {
+export class StreamList extends React.Component {
   componentDidMount() {
     this.props.fetchStreams()
   }
@@ -37,6 +37,7 @@ class StreamList extends React.Component {
 
   renderList() {
     const { streams } = this.props
+    debugger
     return streams.map(stream => {
       return(
         <div className="item" key={stream.id}>
@@ -54,7 +55,6 @@ class StreamList extends React.Component {
   }
 
   render() {
-    debugger
     return (
       <div>
         <h2>Streams</h2>

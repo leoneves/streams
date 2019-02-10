@@ -5,7 +5,7 @@ import { fetchStream, editStream } from '../../actions'
 import { connect } from 'react-redux'
 import StreamForm from './StreamForm'
 
-class StreamEdit extends React.Component {
+export class StreamEdit extends React.Component {
   componentDidMount() {
     this.props.fetchStream(this.props.match.params.id)
   }

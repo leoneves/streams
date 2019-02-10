@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { createStream } from '../../actions'
 import StreamForm from './StreamForm'
 
-class StreamCreate extends React.Component {
+export class StreamCreate extends React.Component {
   onSubmit = formValues => {
     this.props.createStream(formValues)
   }

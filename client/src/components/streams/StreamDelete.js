@@ -5,7 +5,7 @@ import history from '../../history'
 import { Link } from 'react-router-dom'
 import { fetchStream, deleteStream } from '../../actions'
 
-class StreamDelete extends React.Component {
+export class StreamDelete extends React.Component {
   componentDidMount() {
     this.props.fetchStream(this.props.match.params.id)
   }
