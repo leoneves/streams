@@ -37,7 +37,6 @@ export class StreamList extends React.Component {
 
   renderList() {
     const { streams } = this.props
-    debugger
     return streams.map(stream => {
       return(
         <div className="item" key={stream.id}>
