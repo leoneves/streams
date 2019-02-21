@@ -25,7 +25,6 @@ export class GoogleAuth extends React.Component {
     }
   }
 
-
   onSignInClick = () => {
     this.auth.signIn()
   }
@@ -51,7 +50,7 @@ export class GoogleAuth extends React.Component {
           Sign In with Google
         </button>
       )
-    }    
+    }
   }
 
   render() {

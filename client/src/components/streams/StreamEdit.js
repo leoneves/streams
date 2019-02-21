@@ -23,11 +23,11 @@ export class StreamEdit extends React.Component {
         <h3>Edit a Stream</h3>
         <StreamForm
           initialValues={ _.pick(this.props.stream, 'title', 'description') }
-          onSubmit={ this.onSubmit } 
+          onSubmit={ this.onSubmit }
         />
       </div>
     )
-  }  
+  }
 }
 
 const mapStateToProps = (state, ownProps) => {

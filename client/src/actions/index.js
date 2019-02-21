@@ -24,30 +24,30 @@ export const signOut = () => {
 export const createStream = formValues => (getState) => {
   // const { userId } = getState().auth
   return {
-    type: CREATE_STREAM, payload: {} 
+    type: CREATE_STREAM, payload: {}
   }
 }
 
 export const fetchStreams = () => {
   return {
-    type: FETCH_STREAMS_REQUEST 
+    type: FETCH_STREAMS_REQUEST
   }
 }
 
 export const fetchStream = id => dispatch => {
   return {
-    type: FETCH_STREAM, payload: {} 
+    type: FETCH_STREAM, payload: {}
   }
 }
 
 export const editStream = (id, formValues) => {
   return {
-    type: EDIT_STREAM, payload: {} 
+    type: EDIT_STREAM, payload: {}
   }
 }
 
 export const deleteStream = id => {
   return {
-    type: DELETE_STREAM, payload: id 
+    type: DELETE_STREAM, payload: id
   }
 }

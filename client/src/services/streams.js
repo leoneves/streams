@@ -5,6 +5,6 @@ export const getStreams = () => {
     .then(response => response.data)
     .catch(err => {
       throw err
-    })  
+    })
 }
 
